@@ -1,0 +1,56 @@
+{
+  "groups": [
+    {
+      "name": "spring.minio",
+      "type": "com.github.minio.autoconfigure.MinioProperties",
+      "sourceType": "com.github.minio.autoconfigure.MinioProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.minio.access-key",
+      "type": "java.lang.String",
+      "description": "用户名",
+      "sourceType": "com.github.minio.autoconfigure.MinioProperties"
+    },
+    {
+      "name": "spring.minio.async-enable",
+      "type": "java.lang.Boolean",
+      "description": "异步模板开关",
+      "sourceType": "com.github.minio.autoconfigure.MinioProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.minio.bucket-name",
+      "type": "java.lang.String",
+      "description": "【默认】桶名称",
+      "sourceType": "com.github.minio.autoconfigure.MinioProperties"
+    },
+    {
+      "name": "spring.minio.host",
+      "type": "java.lang.String",
+      "description": "连接地址",
+      "sourceType": "com.github.minio.autoconfigure.MinioProperties"
+    },
+    {
+      "name": "spring.minio.part-size",
+      "type": "java.lang.Long",
+      "description": "分段大小，单位：字节,大小在5MB到5GB之间,包含两端",
+      "sourceType": "com.github.minio.autoconfigure.MinioProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.minio.prefix-link",
+      "type": "java.lang.String",
+      "description": "文件链接前缀，用于文件展示使用,不以斜杠结尾",
+      "sourceType": "com.github.minio.autoconfigure.MinioProperties"
+    },
+    {
+      "name": "spring.minio.secret-key",
+      "type": "java.lang.String",
+      "description": "密码",
+      "sourceType": "com.github.minio.autoconfigure.MinioProperties"
+    }
+  ],
+  "hints": []
+}

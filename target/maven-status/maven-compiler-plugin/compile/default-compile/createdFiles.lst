@@ -1,0 +1,9 @@
+com\github\minio\constant\StrConstant.class
+com\github\minio\core\MinioOperations.class
+com\github\minio\core\MinioAsyncTemplate.class
+com\github\minio\autoconfigure\MinioAutoConfiguration.class
+com\github\minio\core\MinioAsyncOperations.class
+com\github\minio\core\MinioTemplate.class
+META-INF\spring-autoconfigure-metadata.properties
+META-INF\spring-configuration-metadata.json
+com\github\minio\autoconfigure\MinioProperties.class
